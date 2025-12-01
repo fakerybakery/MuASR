@@ -13,9 +13,7 @@ inputs = inputs.to(device, dtype=torch.bfloat16)
 outputs = model.generate(
     **inputs,
     max_new_tokens=500,
-    do_sample=True,
-    temperature=0.7,
-    repetition_penalty=1.2
+    do_sample=True
 )
 decoded_outputs = processor.batch_decode(outputs[:, inputs.input_ids.shape[1]:], skip_special_tokens=True)
 
