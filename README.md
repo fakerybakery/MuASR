@@ -42,6 +42,7 @@ Hold on to the memories we made
 
 - The model was trained on full-length songs (up to 4 minutes); however, it may not perform well on extremely long or short songs.
 - The model was trained on primarily English data; it may not perform well on other languages.
+- The model sometimes hallucinates. Further training should improve this.
 
 ## Examples
 
