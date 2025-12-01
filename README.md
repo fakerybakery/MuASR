@@ -45,7 +45,7 @@ Hold on to the memories we made
 
 ## Examples
 
-*Coming soon.*
+[See examples](https://huggingface.co/mrfakename/MuASR-3B#examples)
 
 ## Acknowledgments
 
